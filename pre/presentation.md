@@ -478,7 +478,7 @@ $$
 - Now we have proved $\forall\ \varepsilon > 0$, $\exists$ $\varepsilon > 0$, such that
     $$
     \left|
-        \frac{f(z_0+\Delta z)-f(z_0)}{\varepsilon z}-(u_x(x_0, y_0) + i v_x(x_0, y_0))
+        \frac{f(z_0+\Delta z)-f(z_0)}{\Delta z}-(u_x(x_0, y_0) + i v_x(x_0, y_0))
     \right|<\varepsilon
     $$
     whenever $|z-z_0|<\delta$.
